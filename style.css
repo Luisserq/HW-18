@@ -378,7 +378,6 @@ header::before {
         top: -100%;
         opacity: 0;
     }
-
     .menu.active {
         background: var(--fontColor);
         top: 60;
