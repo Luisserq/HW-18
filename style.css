@@ -534,8 +534,8 @@ header::before {
     .about-detail > p {
         margin-bottom: 1em;
         color: var(--fontColor);
-        width: 23em;
-        font-size: 2.1vh;
+        width: 20em;
+        font-size: 0.9em;
     }
 
     .menu-toggle.is-active .bar:nth-child(2) {
@@ -562,5 +562,5 @@ header::before {
     }
     
 
-}
 
+}
