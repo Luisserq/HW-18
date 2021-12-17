@@ -459,17 +459,14 @@ header::before {
     .menu {
         flex-direction: column;
         background: var(--primaryColor);
-        width: 100%;
         margin: 0;
         position: absolute;
         left: 0;
-        top: -100%;
         opacity: 0;
     }
 
     .menu.active {
         background: var(--fontColor);
-        top: 60;
         opacity: 1;
         margin-top: 7em;
         width: 100%;
