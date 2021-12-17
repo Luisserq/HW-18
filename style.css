@@ -455,6 +455,7 @@ header::before {
     .navbar > .Logo {
         margin-left: -1em;
     }
+
     .menu {
         flex-direction: column;
         background: var(--primaryColor);
@@ -485,7 +486,7 @@ header::before {
     }
 
     .menu-toggle .bar {
-        display: block;
+        display: none;
         cursor: pointer;
     }
 
@@ -504,7 +505,6 @@ header::before {
     .header-title > h2 {
         color: var(--whiteColor);
         font-size: 2.4rem;
-    
     }
 
     .header-title {
@@ -574,3 +574,4 @@ header::before {
 
 
 }
+
