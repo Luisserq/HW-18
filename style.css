@@ -475,7 +475,7 @@ header::before {
     .menu.active {
         background: var(--fontColor);
         opacity: 1;
-        margin-top: 7em;
+        margin-top: 22em;
         width: 100%;
         text-align: center;
         display: inline-flex;
@@ -501,12 +501,16 @@ header::before {
     }
 
     .menu-toggle.is-active .bar:nth-child(1) {
-        transform: translate(8px) rotate(-45deg);
+        transform: translate(8px) rotate(135deg);
     }
 
     .menu-toggle.is-active .bar:nth-child(3) {
-        transform: translate(-8px) rotate(-45deg);
+        transform: translate(8px) rotate(-135deg);
     }
+
+
+
+
 
     .header-title > h2 {
         color: var(--whiteColor);
