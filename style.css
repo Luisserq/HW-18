@@ -471,8 +471,10 @@ header::before {
         background: var(--fontColor);
         top: 60;
         opacity: 1;
+        margin-top: 7em;
         width: 100%;
         text-align: center;
+        display: inline-flex;
     }
     .menu > a {
         line-height: 60px;
@@ -486,7 +488,7 @@ header::before {
     }
 
     .menu-toggle .bar {
-        display: none;
+        display: block;
         cursor: pointer;
     }
 
