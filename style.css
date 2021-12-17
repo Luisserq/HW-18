@@ -174,7 +174,7 @@ header::before {
 .about-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minimax(280px, 1fr));
-    padding: 0 15%;
+    padding: 0% 15%;
     align-items: center;
     justify-content: center;
 }
@@ -536,6 +536,15 @@ header::before {
         color: var(--fontColor);
         width: 20em;
         font-size: 0.9em;
+    }
+
+    .about-wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minimax(280px, 1fr));
+        padding: 0% 15%;
+        align-items: center;
+        justify-content: center;
+        margin-left: -5em;
     }
 
     .menu-toggle.is-active .bar:nth-child(2) {
