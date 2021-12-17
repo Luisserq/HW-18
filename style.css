@@ -213,16 +213,17 @@ header::before {
 
 }
 
-.about-detail >button {
+.about-detail >a {
     padding: 0.4rem 2rem;
     border: 2px solid var(--whiteColor);
     background: var(--fontColor);
     font-size: 14px;
     color: var(--whiteColor);
     cursor: pointer;
+    text-decoration: none;
 }
 
-.about-detail > button:hover {
+.about-detail > a:hover {
     border: 2px solid var(--whiteColor);
     background: transparent;
 }
@@ -411,7 +412,7 @@ header::before {
     width:175px;
 }
 
-.hire-wrapper > .downloadresume {
+.hire-wrapper > a {
     margin-top: -6em;
     font-size: 16px;
     padding: 0.6rem 3rem;
@@ -420,9 +421,10 @@ header::before {
     color: var(--whiteColor);
     width:300px;
     justify-content: center;
+    text-decoration: none;
 }
 
-.hire-wrapper > .downloadresume:hover {
+.hire-wrapper > a:hover {
     margin-top: -6em;
     padding: 0.6rem 3rem;
     border: 2px solid var(--fontColor);
@@ -442,6 +444,7 @@ header::before {
     padding: 0.5rem 0;
     bottom: 0;
     text-align: center;
+    margin-top: 1em;
     color: var(--primaryColor);
     font-size: 0.8rem;
     border-top: 1px solid var(--primaryColor);
