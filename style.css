@@ -475,7 +475,7 @@ header::before {
     .menu.active {
         background: var(--fontColor);
         opacity: 1;
-        margin-top: 12em;
+        margin-top: 10em;
         width: 100%;
         text-align: center;
         display: inline-flex;
