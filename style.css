@@ -456,6 +456,13 @@ header::before {
         margin-left: -1em;
     }
 
+    .navbar .menu {
+        width: 200px;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 2em;
+        }
+
     .menu {
         flex-direction: column;
         background: var(--primaryColor);
@@ -481,7 +488,7 @@ header::before {
     .menu > a:hover {
         background-color: var(--primaryColor);
         color: var(--fontColor);
-        transition: all 0.4s ease-out;
+        transition: all 1.4s ease-out;
     }
 
     .menu-toggle .bar {
@@ -573,4 +580,3 @@ header::before {
 
 
 }
-
