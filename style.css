@@ -489,6 +489,18 @@ header::before {
         cursor: pointer;
     }
 
+    .menu-toggle.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.is-active .bar:nth-child(1) {
+        transform: translate(8px) rotate(-45deg);
+    }
+
+    .menu-toggle.is-active .bar:nth-child(3) {
+        transform: translate(-8px) rotate(-45deg);
+    }
+
     .header-title > h2 {
         color: var(--whiteColor);
         font-size: 2.4rem;
@@ -547,17 +559,6 @@ header::before {
         margin-left: -5em;
     }
 
-    .menu-toggle.is-active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .menu-toggle.is-active .bar:nth-child(1) {
-        transform: translate(8px) rotate(-45deg);
-    }
-
-    .menu-toggle.is-active .bar:nth-child(3) {
-        transform: translate(-8px) rotate(-45deg);
-    }
 
 }
 
